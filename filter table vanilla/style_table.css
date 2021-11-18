@@ -1,0 +1,90 @@
+table .th-sort-asc::after {
+    content: "\25b4";
+}
+
+table .th-sort-desc::after {
+    content: "\25be";
+}
+
+table .th-sort-asc::after {
+    content: "\25b4";
+}
+
+
+table .th-sort-desc::after,
+table .th-sort-desc::after {
+    margin-left: 5px;
+}
+
+table thead tr th {
+    background-color : gray;
+    min-width : 100px;
+    position: relative;
+  }
+
+.filter {
+    position:absolute;
+    border: solid 1px;
+    top : 20px;
+    background-color : white;
+    width:150px;
+    right:50;
+    display:none;
+    z-index: 100;
+  }
+
+  .filter-btn {
+    background-color: blue;
+    color: white;
+    border-radius: 0%;
+    margin-right: 2px;
+    padding-bottom: 7px;
+    padding-right: 2px;
+    width: 17px;
+    height: 17px;
+    float: left;
+  }
+
+.grid-item {
+    text-align: left;
+}
+
+#filter-button-row {
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
+#filter-button-row{
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-bottom: 10px;
+}
+
+
+#filter-button-row input{
+    background-color:rgb(0, 0, 255);
+    color: white;
+    border-radius: 10%;
+}
+
+#filter-button-row input:hover{
+    background-color:rgba(0, 0, 255, 0.2);
+    color: black;
+    border-radius: 10%;
+}
+
+#all {
+    margin-top: 10px;
+}
+
+#close {
+    font-size: 16px;
+}
+
+#ok {
+    float: right;
+    font-size: 16px;
+}
